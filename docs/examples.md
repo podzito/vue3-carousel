@@ -1,6 +1,17 @@
 # Examples
 
-## [Basic Example](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleBasic.vue)
+- [Basic Example](#basic-example)
+- [Wrap Around](#wrap-around)
+- [Breakpoints](#breakpoints)
+- [Pagination](#pagination)
+- [Autoplay](#autoplay)
+- [Active Classes](#active-classes)
+- [Custom Navigation](#custom-navigation)
+- [Custom Texts](#custom-texts)
+- [Gallery](#gallery)
+- [Custom Scroll](#custom-scroll)
+
+## <a name="basic-example"></a> [Basic Example](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleBasic.vue)
 
 <ExampleBasic></ExampleBasic>
 
@@ -20,9 +31,9 @@
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
+import { Carousel, Navigation, Pagination, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'Basic',
@@ -60,7 +71,7 @@ export default defineComponent({
 </style>
 ```
 
-## [Wrap Around](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleWrapAround.vue)
+## <a name="wrap-around"></a> [Wrap Around](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleWrapAround.vue)
 
 <ExampleWrapAround></ExampleWrapAround>
 
@@ -79,9 +90,9 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Navigation, Slide } from 'vue3-carousel'
+import { Carousel, Navigation, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'WrapAround',
@@ -94,7 +105,7 @@ export default defineComponent({
 </script>
 ```
 
-## [Breakpoints](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleBreakpoints.vue)
+## <a name="breakpoints"></a> [Breakpoints](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleBreakpoints.vue)
 
 <ExampleBreakpoints></ExampleBreakpoints>
 
@@ -113,9 +124,9 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Navigation, Slide } from 'vue3-carousel'
+import { Carousel, Navigation, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'Breakpoints',
@@ -149,7 +160,7 @@ export default defineComponent({
 </script>
 ```
 
-## [Pagination](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleBreakpoints.vue)
+## <a name="pagination"></a> [Pagination](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleBreakpoints.vue)
 
 <ExamplePagination></ExamplePagination>
 
@@ -169,8 +180,8 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Navigation, Slide, Pagination } from 'vue3-carousel'
-import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Navigation, Slide, Pagination } from '@podzito/vue3-carousel'
+import '@podzito/vue3-carousel/dist/carousel.css'
 export default defineComponent({
   name: 'ExamplePagination',
   components: {
@@ -204,7 +215,7 @@ export default defineComponent({
 </script>
 ```
 
-## [Autoplay Example](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleAutoplay.vue)
+## <a name="autoplay"></a> [Autoplay Example](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleAutoplay.vue)
 
 <ExampleAutoplay></ExampleAutoplay>
 
@@ -223,9 +234,9 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Pagination, Slide } from 'vue3-carousel'
+import { Carousel, Pagination, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'Autoplay',
@@ -238,7 +249,7 @@ export default defineComponent({
 </script>
 ```
 
-## [Active Classes](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleActiveClasses.vue)
+## <a name="active-classes"></a> [Active Classes](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleActiveClasses.vue)
 
 <ExampleActiveClasses></ExampleActiveClasses>
 
@@ -255,9 +266,9 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Pagination, Slide } from 'vue3-carousel'
+import { Carousel, Pagination, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'Autoplay',
@@ -312,7 +323,7 @@ export default defineComponent({
 </style>
 ```
 
-## [Custom Navigation](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleCustomNavigation.vue)
+## <a name="custom-navigation"></a> [Custom Navigation](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleCustomNavigation.vue)
 
 <ExampleCustomNavigation></ExampleCustomNavigation>
 
@@ -334,29 +345,31 @@ export default defineComponent({
 </template>
 ```
 
-## [Custom texts](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleCustomLabels.vue)
+## <a name="custom-texts"></a> [Custom texts](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleCustomLabels.vue)
 
 <ExampleCustomLabels></ExampleCustomLabels>
 
 ```vue
 <template>
-  <Carousel :i18n="{
-    'ariaNextSlide': 'Zur nächsten Slide',
-    'ariaPreviousSlide': 'Zur vorherigen Slide',
-    'ariaNavigateToSlide': 'Springe zu Slide {slideNumber}',
-    'ariaGallery': 'Galerie',
-    'itemXofY': 'Slide {currentSlide} von {slidesCount}',
-    'iconArrowUp': 'Pfeil nach oben',
-    'iconArrowDown': 'Pfeil nach unten',
-    'iconArrowRight': 'Pfeil nach rechts',
-    'iconArrowLeft': 'Pfeil nach links',
-  }">
+  <Carousel
+    :i18n="{
+      ariaNextSlide: 'Zur nächsten Slide',
+      ariaPreviousSlide: 'Zur vorherigen Slide',
+      ariaNavigateToSlide: 'Springe zu Slide {slideNumber}',
+      ariaGallery: 'Galerie',
+      itemXofY: 'Slide {currentSlide} von {slidesCount}',
+      iconArrowUp: 'Pfeil nach oben',
+      iconArrowDown: 'Pfeil nach unten',
+      iconArrowRight: 'Pfeil nach rechts',
+      iconArrowLeft: 'Pfeil nach links',
+    }"
+  >
     ...
   </Carousel>
 </template>
 ```
 
-## [Gallery](https://github.com/ismail9k/vue3-carousel/blob/master/docs/examples/ExampleGallery.vue)
+## <a name="gallery"></a> [Gallery](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExampleGallery.vue)
 
 <ExampleGallery></ExampleGallery>
 
@@ -383,9 +396,9 @@ export default defineComponent({
 
 <script>
 import { defineComponent } from 'vue'
-import { Carousel, Slide } from 'vue3-carousel'
+import { Carousel, Slide } from '@podzito/vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
   name: 'Gallery',
@@ -406,6 +419,49 @@ export default defineComponent({
 </script>
 ```
 
+## <a name="custom-scroll"></a> [Custom Scroll](https://github.com/podzito/vue3-carousel/blob/master/docs/examples/ExamplePodcasts.vue)
+
+<ExampleCustomScroll></ExampleCustomScroll>
+
+```vue
+<template>
+  <Carousel :items-to-show="5" :items-to-scroll="5" :wrap-around="false">
+    <Slide v-for="slide in 20" :key="slide">
+      <div class="carousel__item">{{ slide }}</div>
+    </Slide>
+  </Carousel>
+
+  <Carousel
+    id="thumbnails"
+    :items-to-show="4"
+    :wrap-around="true"
+    v-model="currentSlide"
+    ref="carousel"
+  >
+    <Slide v-for="slide in 10" :key="slide">
+      <div class="carousel__item" @click="slideTo(slide - 1)">{{ slide }}</div>
+    </Slide>
+  </Carousel>
+</template>
+
+<script>
+import { defineComponent } from 'vue'
+import { Carousel, Slide } from '@podzito/vue3-carousel'
+
+import '@podzito/vue3-carousel/dist/carousel.css'
+
+export default defineComponent({
+  name: 'CustomScroll',
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
+})
+</script>
+```
+
 <script>
 import ExampleBasic from './examples/ExampleBasic.vue';
 import ExampleWrapAround from './examples/ExampleWrapAround.vue';
@@ -416,6 +472,7 @@ import ExampleActiveClasses from './examples/ExampleActiveClasses.vue';
 import ExampleCustomNavigation from './examples/ExampleCustomNavigation.vue';
 import ExampleCustomLabels from './examples/ExampleCustomLabels.vue';
 import ExampleGallery from './examples/ExampleGallery.vue';
+import ExampleCustomScroll from './examples/ExampleCustomScroll.vue';
 
 import '../dist/carousel.css'
 export default {
@@ -429,6 +486,7 @@ export default {
     ExampleCustomNavigation,
     ExampleCustomLabels,
     ExampleGallery,
+    ExampleCustomScroll
   }
 }
 </script>

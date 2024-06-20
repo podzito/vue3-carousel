@@ -6,8 +6,8 @@ module.exports = {
   base: '/vue3-carousel/',
 
   themeConfig: {
-    repo: 'ismail9k/vue3-carousel',
-    docsRepo: 'ismail9k/vue3-carousel',
+    repo: 'podzito/vue3-carousel',
+    docsRepo: 'podzito/vue3-carousel',
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,

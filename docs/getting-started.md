@@ -5,10 +5,10 @@
 First step is to install it using `yarn` or `npm`:
 
 ```bash
-npm install vue3-carousel
+npm install @podzito/vue3-carousel
 
 # or use yarn
-yarn add vue3-carousel
+yarn add @podzito/vue3-carousel
 ```
 
 ## Basic Using
@@ -29,8 +29,8 @@ yarn add vue3-carousel
 
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import '@podzito/vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from '@podzito/vue3-carousel'
 
 export default {
   name: 'App',
