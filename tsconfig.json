@@ -9,7 +9,7 @@
     "noImplicitThis": false,
     "declaration": true,
     "declarationDir": "./dist/dts",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "outDir": "./dist",
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "paths": {
