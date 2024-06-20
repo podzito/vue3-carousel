@@ -8,4 +8,4 @@ npm run build
 
 git push --tags
 git push
-npm publish
+npm publish --access public
