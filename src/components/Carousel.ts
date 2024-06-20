@@ -1,32 +1,32 @@
 import {
+  Ref,
+  SetupContext,
+  VNode,
+  cloneVNode,
+  computed,
   defineComponent,
+  h,
+  nextTick,
   onMounted,
   onUnmounted,
-  ref,
-  reactive,
   provide,
-  computed,
-  h,
+  reactive,
+  ref,
   watch,
-  nextTick,
-  cloneVNode,
-  VNode,
-  SetupContext,
-  Ref,
 } from 'vue'
 
 import { defaultConfigs } from '@/partials/defaults'
 import { carouselProps } from '@/partials/props'
-import { CarouselConfig, CarouselNav, ElementStyleObject, Breakpoints } from '@/types'
+import { Breakpoints, CarouselConfig, CarouselNav, ElementStyleObject } from '@/types'
 import {
   debounce,
-  throttle,
-  getSlidesVNodes,
-  getNumberInRange,
   getMaxSlideIndex,
   getMinSlideIndex,
+  getNumberInRange,
   getSlidesToScroll,
+  getSlidesVNodes,
   mapNumberToRange,
+  throttle,
 } from '@/utils'
 
 import ARIAComponent from './ARIA'
@@ -222,7 +222,7 @@ export default defineComponent({
 
       // Prevent clicking if there is clicked slides
       if (draggedSlides && !isTouch) {
-        const captureClick = (e: MouseEvent) => {
+        const captureClick = (_e: MouseEvent) => {
           window.removeEventListener('click', captureClick, true)
         }
         window.addEventListener('click', captureClick, true)

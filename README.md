@@ -1,16 +1,12 @@
 # Vue 3 Carousel
 
-Modern lightweight Vue 3 carousel component
+This is a fork of https://ismail9k.github.io/vue3-carousel/. Our goal is to extend this base functionality to provide more diverse usage scenarios.
 
-<p>
-  <a href="https://npm-stat.com/charts.html?package=vue3-carousel"><img src="https://img.shields.io/npm/dm/vue3-carousel.svg" alt="npm"/></a>
-  <a href="https://www.npmjs.com/package/vue3-carousel"><img src="https://img.shields.io/npm/v/vue3-carousel.svg" alt="npm"/></a>
-  <a href="https://packagequality.com/#?package=vue3-carousel"><img src="https://packagequality.com/shield/vue3-carousel.svg" alt="Package Quality"/></a>
-</p>
+Modern lightweight Vue 3 carousel component
 
 ## Documentation
 
-https://ismail9k.github.io/vue3-carousel/
+Coming soon ...
 
 ## Features
 
@@ -29,10 +25,10 @@ https://ismail9k.github.io/vue3-carousel/
 First step is to install it using `yarn` or `npm`:
 
 ```bash
-npm install vue3-carousel
+npm install @podzito/vue3-carousel
 
 # or use yarn
-yarn add vue3-carousel
+yarn add @podzito/vue3-carousel
 ```
 
 ### Basic Using
@@ -53,7 +49,7 @@ yarn add vue3-carousel
 
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
-import 'vue3-carousel/dist/carousel.css'
+import '@podzito/vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 export default {
